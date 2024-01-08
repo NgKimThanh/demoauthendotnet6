@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "urTwPDXKP5Er6ELibqOxfwMfY7/OJXhRMkS2Xx0JXSc=",
+  "Source": "DotNet6Authen",
+  "BasePath": "_content/DotNet6Authen",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
