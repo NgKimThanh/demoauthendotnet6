@@ -199,5 +199,6 @@ namespace DotNet6Authen.Controllers
             };
             Response.Cookies.Append("refreshToken", newRefreshToken.Token, cookieOptions);
         }
+
     }
 }
