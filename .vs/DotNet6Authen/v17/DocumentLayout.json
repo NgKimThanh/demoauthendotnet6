@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Project\\DotNet6Authen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\migrations\\20240104141412_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\migrations\\20240104141412_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\dto\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\dto\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240408142919_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DotNet6Authen\\Migrations\\20240408142919_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\entities\\demoauthencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\entities\\demoauthencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\entities\\groupofproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\entities\\groupofproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\helper\\helpermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\helper\\helpermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\controllers\\groupofproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\controllers\\groupofproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\service\\groupofporducts\\igroupofproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\service\\groupofporducts\\igroupofproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\service\\groupofporducts\\groupofproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\service\\groupofporducts\\groupofproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\dto\\groupofproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\dto\\groupofproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\dotnet6authen.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\dotnet6authen.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\migrations\\20240104143210_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\migrations\\20240104143210_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|c:\\users\\project\\dotnet6authen\\dotnet6authen\\migrations\\20240408143011_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BA243-EBCC-46B8-A825-EB1802C98DFA}|DotNet6Authen\\DotNet6Authen.csproj|solutionrelative:dotnet6authen\\migrations\\20240408143011_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNet6Authen\\appsettings.json",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\appsettings.json",
+              "RelativeToolTip": "DotNet6Authen\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-04T14:09:10.197Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Program.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Program.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Program.cs",
+              "RelativeToolTip": "DotNet6Authen\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:03:04.446Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DotNet6Authen\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:15:03.945Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroupOfProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Controllers\\GroupOfProductController.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Controllers\\GroupOfProductController.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Controllers\\GroupOfProductController.cs",
+              "RelativeToolTip": "DotNet6Authen\\Controllers\\GroupOfProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:32:57.378Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GroupOfProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Service\\GroupOfPorducts\\GroupOfProductService.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Service\\GroupOfPorducts\\GroupOfProductService.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Service\\GroupOfPorducts\\GroupOfProductService.cs",
+              "RelativeToolTip": "DotNet6Authen\\Service\\GroupOfPorducts\\GroupOfProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:35:33.373Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGroupOfProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Service\\GroupOfPorducts\\IGroupOfProductService.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Service\\GroupOfPorducts\\IGroupOfProductService.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Service\\GroupOfPorducts\\IGroupOfProductService.cs",
+              "RelativeToolTip": "DotNet6Authen\\Service\\GroupOfPorducts\\IGroupOfProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:36:23.937Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240408143011_init.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240408143011_init.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Migrations\\20240408143011_init.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240408143011_init.cs",
+              "RelativeToolTip": "DotNet6Authen\\Migrations\\20240408143011_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:30:11.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240104141412_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240104141412_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Migrations\\20240104141412_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240104141412_InitialCreate.cs",
+              "RelativeToolTip": "DotNet6Authen\\Migrations\\20240104141412_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:14:12.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240408142919_init.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240408142919_init.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Migrations\\20240408142919_init.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240408142919_init.cs",
+              "RelativeToolTip": "DotNet6Authen\\Migrations\\20240408142919_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:29:19.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupOfProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\GroupOfProduct.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Entities\\GroupOfProduct.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\GroupOfProduct.cs",
+              "RelativeToolTip": "DotNet6Authen\\Entities\\GroupOfProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:29:57.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\Auth\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\DTO\\Auth\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\Auth\\RefreshToken.cs",
+              "RelativeToolTip": "DotNet6Authen\\DTO\\Auth\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:22:24.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DemoAuthenContext.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\DemoAuthenContext.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Entities\\DemoAuthenContext.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\DemoAuthenContext.cs",
+              "RelativeToolTip": "DotNet6Authen\\Entities\\DemoAuthenContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:01:04.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HelperMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Helper\\HelperMapper.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Helper\\HelperMapper.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Helper\\HelperMapper.cs",
+              "RelativeToolTip": "DotNet6Authen\\Helper\\HelperMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:50:10.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupOfProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\GroupOfProductDTO.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\DTO\\GroupOfProductDTO.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\GroupOfProductDTO.cs",
+              "RelativeToolTip": "DotNet6Authen\\DTO\\GroupOfProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:37:48.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DotNet6Authen",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DotNet6Authen.csproj",
+              "RelativeDocumentMoniker": "DotNet6Authen\\DotNet6Authen.csproj",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DotNet6Authen.csproj",
+              "RelativeToolTip": "DotNet6Authen\\DotNet6Authen.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-04T14:45:30.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\User.cs",
+              "RelativeToolTip": "DotNet6Authen\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:02:08.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DotNet6Authen\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:08:34.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Entities\\Product.cs",
+              "RelativeToolTip": "DotNet6Authen\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:29:41.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240104143210_AddProductTable.cs",
+              "DocumentMoniker": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240104143210_AddProductTable.cs",
+              "RelativeDocumentMoniker": "DotNet6Authen\\Migrations\\20240104143210_AddProductTable.cs",
+              "ToolTip": "C:\\Users\\Project\\DotNet6Authen\\DotNet6Authen\\Migrations\\20240104143210_AddProductTable.cs",
+              "RelativeToolTip": "DotNet6Authen\\Migrations\\20240104143210_AddProductTable.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T13:31:45.021Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

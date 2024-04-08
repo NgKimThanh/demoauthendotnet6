@@ -276,7 +276,6 @@ C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\staticwebassets.pa
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\scopedcss\bundle\DotNet6Authen.styles.css
-C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6Authen.csproj.CopyComplete
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6Authen.dll
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\refint\DotNet6Authen.dll
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6Authen.pdb
@@ -284,3 +283,5 @@ C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6Authen.genr
 C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\ref\DotNet6Authen.dll
 C:\Users\Project\DotNet6Authen\DotNet6Authen\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Project\DotNet6Authen\DotNet6Authen\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6Authen.sourcelink.json
+C:\Users\Project\DotNet6Authen\DotNet6Authen\obj\Debug\net6.0\DotNet6A.AF362969.Up2Date

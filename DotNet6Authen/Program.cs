@@ -25,7 +25,7 @@ builder.Services.AddScoped<IGroupOfProductService, GroupOfProductService>();
 // Khởi tạo conection string
 builder.Services.AddDbContext<DemoAuthenContext>(options =>
 {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DBDemoAuthen2"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DBDemoAuthen"));
 });
 
 builder.Services.AddSwaggerGen(options =>

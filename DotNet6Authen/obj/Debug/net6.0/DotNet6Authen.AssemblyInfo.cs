@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNet6Authen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83387dc99756692ede25b22482e4fa3dd712b5ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNet6Authen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNet6Authen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
