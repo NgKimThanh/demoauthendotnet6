@@ -130,6 +130,33 @@ namespace DotNet6Authen.Migrations
                     b.ToTable("User");
                 });
 
+            modelBuilder.Entity("DotNet6Authen.Entities.UserRefreshToken", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("DeviceInfo")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("UserID")
+                        .IsRequired()
+                        .HasColumnType("integer");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("UserRefreshTokens");
+                });
+
             modelBuilder.Entity("DotNet6Authen.Entities.Product", b =>
                 {
                     b.HasOne("DotNet6Authen.Entities.GroupOfProduct", "GroupOfProduct")
@@ -141,9 +168,25 @@ namespace DotNet6Authen.Migrations
                     b.Navigation("GroupOfProduct");
                 });
 
+            modelBuilder.Entity("DotNet6Authen.Entities.UserRefreshToken", b =>
+                {
+                    b.HasOne("DotNet6Authen.Entities.User", "User")
+                        .WithMany("UserRefreshToken")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("DotNet6Authen.Entities.GroupOfProduct", b =>
                 {
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("DotNet6Authen.Entities.User", b =>
+                {
+                    b.Navigation("UserRefreshToken");
                 });
 #pragma warning restore 612, 618
         }

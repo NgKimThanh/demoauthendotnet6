@@ -36,5 +36,7 @@ namespace DotNet6Authen.Entities
         [Required]
         [MaxLength(250)]
         public string Role { get; set; }
+
+        public virtual ICollection<UserRefreshToken> UserRefreshToken { get; set; }
     }
 }

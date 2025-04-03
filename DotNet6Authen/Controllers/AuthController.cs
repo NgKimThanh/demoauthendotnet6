@@ -1,10 +1,12 @@
 ﻿using DemoWebApiDotNet6.DTO.Auth;
 using DotNet6Authen.DTO;
+using DotNet6Authen.DTO.Auth.User;
 using DotNet6Authen.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json.Linq;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -60,7 +62,7 @@ namespace DotNet6Authen.Controllers
 
         #region Đăng nhập
         [HttpPost("login")]
-        public async Task<ActionResult<string>> Login(UserDTO request)
+        public async Task<ActionResult<string>> Login(LoginDTO request)
         {
             string token = "";
             try
@@ -89,7 +91,7 @@ namespace DotNet6Authen.Controllers
                 token = CreateToken(user);
                 // Tạo refresh token
                 var refreshToken = GenerateRefreshToken();
-                SetRefreshToken(refreshToken);
+                SetRefreshToken(refreshToken, user.Id);
 
                 user.RefreshToken = refreshToken.Token;
                 user.TokenCreated = refreshToken.Created;
@@ -117,28 +119,35 @@ namespace DotNet6Authen.Controllers
 
         #region Refresh token
         [HttpPost("refresh-token")]
-        public async Task<ActionResult<string>> RefreshToken(string userName)
+        public async Task<ActionResult<string>> RefreshToken()
         {
-            // Lấy thông tin user
-            var user = await _demoAuthencontext.User.FirstOrDefaultAsync(c => c.UserName == userName);
-            if (user == null || user.UserName != userName)
+            string refreshToken = string.Empty;
+            var userID = -1;
+            try
             {
-                return BadRequest("User not found.");
+                refreshToken = Request.Cookies["refreshToken"] ?? string.Empty;
+                // Có thể lưu userID này ở local storage để tránh bị js đánh cắp token
+                userID = Convert.ToInt32(Request.Cookies["userId"]);
+            }
+            catch
+            {
+                return Unauthorized("No Refresh Token found.");
             }
 
-            var refreshToken = Request.Cookies["refreshToken"];
-            if (!user.RefreshToken.Equals(refreshToken))
-            {
-                return Unauthorized("Invalid Refresh Token.");
-            }
-            else if (user.TokenExpires < DateTime.Now)
-            {
-                return Unauthorized("Token expired.");
-            }
+            if (string.IsNullOrEmpty(refreshToken) || userID < 0)
+                return Unauthorized("No Refresh Token found.");
+
+            // Lấy user từ HpptOnly Cookie userID
+            var user = await _demoAuthencontext.User.FirstOrDefaultAsync(c => c.Id == userID);
+            if (user == null)
+                return Unauthorized("Invalid user.");
+
+            if (user.TokenExpires < DateTime.UtcNow)
+                return Unauthorized("Refresh Token expired.");
 
             string token = CreateToken(user);
             var newRefreshToken = GenerateRefreshToken();
-            SetRefreshToken(newRefreshToken);
+            SetRefreshToken(newRefreshToken, user.Id);
 
             user.RefreshToken = newRefreshToken.Token;
             user.TokenCreated = newRefreshToken.Created;
@@ -148,6 +157,34 @@ namespace DotNet6Authen.Controllers
             return Ok(token);
         }
         #endregion Refresh token
+
+        #region Đăng xuất
+        [HttpPost("logout")]
+        public async Task<ActionResult<string>> LogOut()
+        {
+            // Lấy refresh token từ cookie
+            var refreshToken = Request.Cookies["refreshToken"];
+            if (string.IsNullOrEmpty(refreshToken))
+                return BadRequest("No Refresh Token found.");
+
+            // Tìm user có refresh token này
+            var user = await _demoAuthencontext.User.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+            if (user == null)
+                return Unauthorized("Invalid Refresh Token.");
+
+            // Xóa refresh token trong database
+            user.RefreshToken = null;
+            user.TokenCreated = null;
+            user.TokenExpires = null;
+            await _demoAuthencontext.SaveChangesAsync();
+
+            // Xóa cookie refresh token
+            Response.Cookies.Delete("refreshToken");
+            Response.Cookies.Delete("userID");
+
+            return Ok("Logged out successfully.");
+        }
+        #endregion Đăng xuất
 
         private string CreateToken(User user)
         {
@@ -190,7 +227,7 @@ namespace DotNet6Authen.Controllers
             return refreshToken;
         }
 
-        private void SetRefreshToken(RefreshToken newRefreshToken)
+        private void SetRefreshToken(RefreshToken newRefreshToken, int userID)
         {
             var cookieOptions = new CookieOptions
             {
@@ -198,6 +235,12 @@ namespace DotNet6Authen.Controllers
                 Expires = newRefreshToken.Expires
             };
             Response.Cookies.Append("refreshToken", newRefreshToken.Token, cookieOptions);
+            Response.Cookies.Append("userID", userID.ToString(), new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                Expires = newRefreshToken.Expires
+            });
         }
 
     }

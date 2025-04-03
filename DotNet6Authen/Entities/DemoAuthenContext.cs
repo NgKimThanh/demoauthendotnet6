@@ -13,6 +13,7 @@ namespace DotNet6Authen.Entities
         public DbSet<User>? User { get; set; }
         public DbSet<Product>? Product { get; set; }
         public DbSet<GroupOfProduct>? GroupOfProduct { get; set; }
+        public DbSet<UserRefreshToken>? UserRefreshToken { get; set; }
 
         // Định nghĩa mô hình cơ sở dữ liệu (database model) cho một ứng dụng
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
